@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ul,li{
+    padding: 10px;
+    margin-left: 10px;
+    display:flex;
+    justify-content: center;
+    
+}
+li:hover{
+    color: grey;
+  
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 220px;
+    display:inline-block;
+    justify-content: center;
+    
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.Recipes{
+    text-align: center;
+}
+.contact{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.container-1{
+    padding: 10px;
+}
+button{
+    background-color: yellow;
+    display:inline-block;
+    padding: 10px;
+    width:370px
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
